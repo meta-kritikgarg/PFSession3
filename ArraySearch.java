@@ -13,9 +13,13 @@ public class ArraySearch {
 		while(true){
 		choice=arraysearch.getIntfromUser("Choice");
 		if(choice==1 || choice == 2)
-		 break;
+			 {
+			 	break;
+			 }
 		else
-			System.out.println("Invalid Choice, Try again");
+			{
+				System.out.println("Invalid Choice, Try again");
+			}
 		}
 		
 		switch(choice)
